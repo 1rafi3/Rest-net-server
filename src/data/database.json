@@ -1,0 +1,419 @@
+{
+  "users": [
+    {
+      "id": "host-admin",
+      "name": "Admin Host",
+      "email": "admin@rentnest.com",
+      "passwordHash": "$2a$10$uR5fBFvqmfgX359DSDonMu2xUlzsbrdRJ2P2A3aRQOyfaeB2yrCdC",
+      "role": "admin",
+      "createdAt": "2026-07-10T17:57:28.072Z"
+    },
+    {
+      "id": "host-user",
+      "name": "Demo Renter",
+      "email": "user@rentnest.com",
+      "passwordHash": "$2a$10$uR5fBFvqmfgX359DSDonMu2xUlzsbrdRJ2P2A3aRQOyfaeB2yrCdC",
+      "role": "user",
+      "createdAt": "2026-07-10T17:57:28.072Z"
+    },
+    {
+      "id": "user-2urxefoh4",
+      "name": "a",
+      "email": "a@gmail.com",
+      "passwordHash": "$2a$10$9pdzmeFszwjfbJVLi7sZteZQ1W17j0ZOmviQuerFD77XSmnLmT/5q",
+      "role": "user",
+      "createdAt": "2026-07-14T05:17:03.585Z"
+    }
+  ],
+  "properties": [
+    {
+      "id": "prop-1",
+      "title": "Urban Nest Co-Living Space",
+      "shortDescription": "Chic co-living space in downtown Manhattan with premium facilities and shared workspace.",
+      "description": "Experience the ultimate co-living lifestyle at Urban Nest. Perfect for remote developers, digital nomads, and young professionals. Features high-speed Wi-Fi, weekly networking events, a state-of-the-art co-working space, and a community roof deck with skyline views. Rent includes all utilities and weekly professional cleaning of shared spaces.",
+      "price": 1200,
+      "category": "Co-living",
+      "location": "Manhattan, New York",
+      "images": [
+        "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800&auto=format&fit=crop&q=80"
+      ],
+      "rating": 4.7,
+      "reviewsCount": 3,
+      "beds": 1,
+      "baths": 2,
+      "sqft": 220,
+      "amenities": [
+        "High-speed Wi-Fi",
+        "Coworking Space",
+        "Rooftop Terrace",
+        "Weekly Cleaning",
+        "Smart TV",
+        "Gym Access"
+      ],
+      "createdAt": "2026-05-12T10:00:00.000Z",
+      "hostId": "host-admin",
+      "reviews": [
+        {
+          "id": "rev-1-1",
+          "name": "Alex Johnson",
+          "rating": 5,
+          "comment": "Absolutely loved my stay here! The community is incredible and the Wi-Fi is super fast for coding.",
+          "date": "2026-06-15",
+          "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "id": "rev-1-2",
+          "name": "Sofia Rodriguez",
+          "rating": 4,
+          "comment": "Great location and very clean. The kitchen can get a bit crowded in the evening, but otherwise perfect.",
+          "date": "2026-06-20",
+          "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "id": "rev-lw61183va",
+          "name": "Admin Host",
+          "rating": 5,
+          "comment": "afdafd",
+          "date": "2026-07-10",
+          "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=100&auto=format&fit=crop&q=80"
+        }
+      ]
+    },
+    {
+      "id": "prop-2",
+      "title": "Sunset Boulevard Modern Studio",
+      "shortDescription": "Ultra-modern, sun-drenched studio apartment with smart home systems in West Hollywood.",
+      "description": "Live steps away from WeHo's trendiest restaurants. This high-end studio offers floor-to-ceiling glass windows, integrated smart lights, automated blinds, and top-tier Miele appliances. A luxurious Murphy bed design maximizes living space, while the private balcony offers breathtaking view of the Sunset Hills.",
+      "price": 1850,
+      "category": "Studio",
+      "location": "Los Angeles, California",
+      "images": [
+        "https://images.unsplash.com/photo-1536376072261-38c75010e6c9?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1502005229762-fc1b2b812ca5?w=800&auto=format&fit=crop&q=80"
+      ],
+      "rating": 5,
+      "reviewsCount": 2,
+      "beds": 1,
+      "baths": 1,
+      "sqft": 480,
+      "amenities": [
+        "Smart Home System",
+        "Private Balcony",
+        "Air Conditioning",
+        "In-unit Washer/Dryer",
+        "Pool Access",
+        "Parking Garage"
+      ],
+      "createdAt": "2026-06-01T14:30:00.000Z",
+      "hostId": "host-admin",
+      "reviews": [
+        {
+          "id": "rev-2-1",
+          "name": "Marcus Aurelius",
+          "rating": 5,
+          "comment": "Excellent design, great view, and very clean. Highly recommended for short or long-term stays.",
+          "date": "2026-06-18",
+          "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "id": "rev-guiecey2n",
+          "name": "Admin Host",
+          "rating": 5,
+          "comment": "good",
+          "date": "2026-07-10",
+          "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=100&auto=format&fit=crop&q=80"
+        }
+      ]
+    },
+    {
+      "id": "prop-3",
+      "title": "The Oasis - Luxury Coastal Villa",
+      "shortDescription": "Breathtaking 4-bedroom villa with private infinity pool and direct beach access in Miami.",
+      "description": "Welcome to The Oasis, a magnificent villa offering unmatched luxury and ocean views. This property is fully equipped with private beach access, a gorgeous heated infinity pool, a cinema room, outdoor dining patio, and 24/7 security. Ideal for family retreats or premium client hosting.",
+      "price": 4500,
+      "category": "Villa",
+      "location": "Miami Beach, Florida",
+      "images": [
+        "https://images.unsplash.com/photo-1613977257363-707ba9348227?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1505691938895-1758d7feb511?w=800&auto=format&fit=crop&q=80"
+      ],
+      "rating": 5,
+      "reviewsCount": 12,
+      "beds": 4,
+      "baths": 4.5,
+      "sqft": 3800,
+      "amenities": [
+        "Private Pool",
+        "Beachfront",
+        "Home Theater",
+        "Chef Services Available",
+        "Security Gate",
+        "Hot Tub"
+      ],
+      "createdAt": "2026-04-20T08:15:00.000Z",
+      "hostId": "host-admin",
+      "reviews": [
+        {
+          "id": "rev-3-1",
+          "name": "Elena Rostova",
+          "rating": 5,
+          "comment": "This villa is pure perfection. The views are even better than the photos. A true paradise.",
+          "date": "2026-05-10",
+          "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&auto=format&fit=crop&q=80"
+        }
+      ]
+    },
+    {
+      "id": "prop-4",
+      "title": "Sleek Loft near Millennium Park",
+      "shortDescription": "Industrial-chic 2-bedroom loft apartment with high ceilings and brick walls in Chicago.",
+      "description": "A spacious industrial loft situated in the heart of Loop, Chicago. Retaining its historical character with exposed brickwork and structural timbers, this loft is updated with contemporary finishes, hard-wood floors, and a gorgeous chef's kitchen. Just steps away from Millennium Park and the art district.",
+      "price": 2100,
+      "category": "Apartment",
+      "location": "Chicago, Illinois",
+      "images": [
+        "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1505691938895-1758d7feb511?w=800&auto=format&fit=crop&q=80"
+      ],
+      "rating": 4.7,
+      "reviewsCount": 22,
+      "beds": 2,
+      "baths": 2,
+      "sqft": 1200,
+      "amenities": [
+        "High Ceilings",
+        "Exposed Brick",
+        "Chef Kitchen",
+        "Storage Unit",
+        "Pet Friendly",
+        "Roof Access"
+      ],
+      "createdAt": "2026-05-28T11:45:00.000Z",
+      "hostId": "host-admin",
+      "reviews": [
+        {
+          "id": "rev-4-1",
+          "name": "David Kim",
+          "rating": 5,
+          "comment": "Fantastic apartment. Very quiet, clean, and in a perfect location for walking to museums.",
+          "date": "2026-06-05",
+          "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80"
+        }
+      ]
+    },
+    {
+      "id": "prop-6",
+      "title": "Pacific Heights Panoramic Penthouse",
+      "shortDescription": "Elegant 3-bedroom penthouse with Golden Gate Bridge views in San Francisco.",
+      "description": "Occupying the top floor of a classic San Francisco building, this magnificent penthouse offers unobstructed views of the bay and the Golden Gate Bridge. Features a double parlor layout, working fireplace, custom cherry cabinetry, wine cellar, and private terrace.",
+      "price": 3900,
+      "category": "Apartment",
+      "location": "San Francisco, California",
+      "images": [
+        "https://images.unsplash.com/photo-1567767292278-a4f21aa2d36e?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1613977257363-707ba9348227?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&auto=format&fit=crop&q=80"
+      ],
+      "rating": 4.9,
+      "reviewsCount": 14,
+      "beds": 3,
+      "baths": 2.5,
+      "sqft": 2100,
+      "amenities": [
+        "Panoramic Views",
+        "Fireplace",
+        "Wine Storage",
+        "Private Terrace",
+        "Concierge Service",
+        "Hardwood Floors"
+      ],
+      "createdAt": "2026-04-15T15:40:00.000Z",
+      "hostId": "host-admin",
+      "reviews": [
+        {
+          "id": "rev-6-1",
+          "name": "Claire Bennett",
+          "rating": 5,
+          "comment": "Waking up to the bay view is breathtaking. Exceptional property and hosts.",
+          "date": "2026-05-20",
+          "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&auto=format&fit=crop&q=80"
+        }
+      ]
+    },
+    {
+      "id": "prop-7",
+      "title": "Austin Downtown Social Co-Living",
+      "shortDescription": "Vibrant co-living community featuring standard micro-studios and rich social spaces.",
+      "description": "Join Austin's leading startup co-living hub! Built for creators, founders, and students. Each resident enjoys a private fully-furnished micro-room with private bathroom, and shares an industrial scale kitchen, media lounge, gaming deck, and massive laundry suite.",
+      "price": 950,
+      "category": "Co-living",
+      "location": "Austin, Texas",
+      "images": [
+        "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800&auto=format&fit=crop&q=80"
+      ],
+      "rating": 4.5,
+      "reviewsCount": 29,
+      "beds": 1,
+      "baths": 1,
+      "sqft": 180,
+      "amenities": [
+        "Social Lounge",
+        "Gaming Room",
+        "Shared Professional Kitchen",
+        "All Utilities Included",
+        "Bicycle Parking",
+        "Community Coordinator"
+      ],
+      "createdAt": "2026-05-02T13:10:00.000Z",
+      "hostId": "host-user",
+      "reviews": []
+    },
+    {
+      "id": "prop-8",
+      "title": "Seattle Waterfront Glass Studio",
+      "shortDescription": "Stunning minimalist glass studio with harbor views in downtown Seattle.",
+      "description": "An architectural marvel located right on the Seattle waterfront. Constructed with soundproof triple-pane glass walls, this studio feels suspended over the ocean. Complete with custom walnut cabinetry, heated bathroom floors, and smart climate controls.",
+      "price": 1700,
+      "category": "Studio",
+      "location": "Seattle, Washington",
+      "images": [
+        "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1536376072261-38c75010e6c9?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800&auto=format&fit=crop&q=80"
+      ],
+      "rating": 5,
+      "reviewsCount": 1,
+      "beds": 1,
+      "baths": 1,
+      "sqft": 520,
+      "amenities": [
+        "Waterfront Views",
+        "Minimalist Design",
+        "Heated Floors",
+        "Smart Climate Control",
+        "Storage Cage",
+        "Gym Access"
+      ],
+      "createdAt": "2026-06-14T17:15:00.000Z",
+      "hostId": "host-admin",
+      "reviews": [
+        {
+          "id": "rev-pt59firfj",
+          "name": "Admin Host",
+          "rating": 5,
+          "comment": "good ",
+          "date": "2026-07-10",
+          "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=100&auto=format&fit=crop&q=80"
+        }
+      ]
+    },
+    {
+      "id": "prop-kn5y0jw8y",
+      "title": "Soho Skyloft Penthouse & Lounge",
+      "shortDescription": "Elegant loft style penthouse in Soho with premium shared lounge access and rooftop workspace.",
+      "description": "Nestled in the heart of Soho, this luxury loft features high-speed 1Gbps fiber internet, memory foam beds, custom walnut furniture, and fully-equipped kitchen space. All monthly utility bills are included in a flat rate. Tenants get exclusive building lounge access, private workspace pods, weekly host-led networking sessions, and regular community social hours.\n",
+      "price": 2400,
+      "category": "Apartment",
+      "location": "New York, New York",
+      "images": [
+        "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=800&auto=format&fit=crop&q=80"
+      ],
+      "rating": 0,
+      "reviewsCount": 0,
+      "beds": 2,
+      "baths": 1.5,
+      "sqft": 850,
+      "amenities": [
+        "High-speed Wi-Fi",
+        "Rooftop Deck",
+        "Laundry Suite",
+        "Coworking Lounge",
+        "Premium Kitchen"
+      ],
+      "createdAt": "2026-07-14T05:14:47.557Z",
+      "hostId": "host-user",
+      "reviews": []
+    }
+  ],
+  "bookings": [
+    {
+      "id": "book-1",
+      "propertyId": "prop-1",
+      "propertyName": "Urban Nest Co-Living Space",
+      "userId": "host-user",
+      "userName": "Demo Renter",
+      "price": 1200,
+      "startDate": "2026-06-01",
+      "endDate": "2026-06-30",
+      "status": "confirmed",
+      "createdAt": "2026-05-15T12:00:00.000Z"
+    },
+    {
+      "id": "book-2",
+      "propertyId": "prop-2",
+      "propertyName": "Sunset Boulevard Modern Studio",
+      "userId": "host-user",
+      "userName": "Demo Renter",
+      "price": 1850,
+      "startDate": "2026-07-01",
+      "endDate": "2026-07-31",
+      "status": "confirmed",
+      "createdAt": "2026-06-10T15:30:00.000Z"
+    },
+    {
+      "id": "book-3",
+      "propertyId": "prop-3",
+      "propertyName": "The Oasis - Luxury Coastal Villa",
+      "userId": "user-unknown",
+      "userName": "Sarah Jenkins",
+      "price": 4500,
+      "startDate": "2026-05-10",
+      "endDate": "2026-05-20",
+      "status": "confirmed",
+      "createdAt": "2026-04-25T09:00:00.000Z"
+    },
+    {
+      "id": "book-4",
+      "propertyId": "prop-4",
+      "propertyName": "Sleek Loft near Millennium Park",
+      "userId": "user-unknown-2",
+      "userName": "Michael Chen",
+      "price": 2100,
+      "startDate": "2026-06-12",
+      "endDate": "2026-06-26",
+      "status": "confirmed",
+      "createdAt": "2026-06-01T10:15:00.000Z"
+    },
+    {
+      "id": "book-5",
+      "propertyId": "prop-5",
+      "propertyName": "Silicon Valley Executive Suite",
+      "userId": "host-user",
+      "userName": "Demo Renter",
+      "price": 2800,
+      "startDate": "2026-08-01",
+      "endDate": "2026-08-15",
+      "status": "confirmed",
+      "createdAt": "2026-07-05T14:00:00.000Z"
+    },
+    {
+      "id": "book-1783707707799",
+      "propertyId": "prop-2",
+      "propertyName": "Sunset Boulevard Modern Studio",
+      "userId": "host-user",
+      "userName": "Demo Renter",
+      "price": 1850,
+      "startDate": "2026-07-12",
+      "endDate": "2026-07-14",
+      "status": "confirmed",
+      "createdAt": "2026-07-10T18:21:47.799Z"
+    }
+  ]
+}
